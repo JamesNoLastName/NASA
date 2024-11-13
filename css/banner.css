@@ -1,0 +1,99 @@
+.banner-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pic-container {
+    width: 100%;
+    max-width: 1400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .pic-left,
+  .pic-right {
+    width: calc(50% - 1px);
+  }
+  
+  .pic-left {
+    background-color: black;
+    background-image: url('../images/top-left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .pic-right {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .pic-right1,
+  .pic-right2 {
+    width: 100%;
+    height: 40vh;
+    margin: 15px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .pic-right1a,
+  .pic-right1b {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    background-color: black;
+  }
+  
+  .pic-right1a {
+    background-image: url('../images/top-right1.jpg');
+  }
+  
+  .pic-right1b {
+    background-color: #39719e;
+    padding-left: 30px;
+  }
+  
+  .pic-right2 {
+    background-image: url('../images/top-right2.jpg');
+  }
+  
+  .pic-right1b a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .pic-right1b h2 {
+    color: white;
+    margin: 3px;
+  }
+  
+  .pic-caption {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pic-caption a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  

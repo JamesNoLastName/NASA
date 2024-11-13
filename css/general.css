@@ -1,0 +1,24 @@
+/* GENERAL STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  ::placeholder {
+    color: lightgray;
+    padding-left: 10px;
+  }
+  
+  .material-icons-outlined {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .material-icons-outlined:hover {
+    color: blue;
+  }
+  
